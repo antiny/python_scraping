@@ -1,0 +1,5 @@
+profile_default
+images
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
