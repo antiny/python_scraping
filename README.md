@@ -14,4 +14,4 @@ To scrape images for term `iphone`, run
 ```
 ./scrape.sh iphone
 ```
-by default, it will download up to ~1000 images.
+by default, it will download up to ~1000 images within the `./images` directory
