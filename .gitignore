@@ -1,5 +1,7 @@
 profile_default
-images
+images/**/*.png
+images/**/*.jpg
 .DS_Store
 .ipynb_checkpoints/
 .vscode/
+__pycache__

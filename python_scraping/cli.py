@@ -9,6 +9,9 @@ app = typer.Typer()
 def about():
     typer.echo("A simple scraping tool")
 
+@app.command()
+def create(username: str):
+    typer.echo(f"Creating user: {username}")
 
 @app.command()
 def scrape(
