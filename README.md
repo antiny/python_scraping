@@ -12,6 +12,6 @@ make build
 To scrape images for term `iphone`, run
 
 ```
-./scraping.sh iphone
+./scrape.sh iphone
 ```
-by default, it will download up to ~1000 images within the `./images` directory
+by default, it will download up to ~1000 images within the `./images` directory using Chrome headless.

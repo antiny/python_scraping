@@ -35,4 +35,4 @@ COPY ./test test
 
 RUN poetry install
 
-ENTRYPOINT [ "poetry", "run", "python", "python_scraping/cli.py" ]
+ENTRYPOINT [ "poetry", "run", "python", "python_scraping/cli.py", "scrape", "--headless" ]
